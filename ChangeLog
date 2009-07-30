@@ -1,4 +1,9 @@
 2009-07-30  Christopher Faulet  <christopher.faulet@capflam.com>
 
+	* stream.erl: Add types and function specifications. 2
+	new functions exported, to_lower and to_upper.
+
+2009-07-30  Christopher Faulet  <christopher.faulet@capflam.com>
+
 	* First commit
 
