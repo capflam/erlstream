@@ -1,0 +1,13 @@
+This module contains functions for binary string (called stream) processing in
+erlang.
+
+example:
+
+   %% Return <<"lo Wo">>
+   stream:sub_stream(<<"Hello World">>, 4, 8).
+
+   %% Return <<"Hello">>
+   stream:strip(<<"...Hello.....">>, both, $.).
+
+   %% Return [<<"abc">>, <<"def">>, <<"ghi">>, <<"jkl">>]
+   stream:tokens(<<"abc defxxghix jkl">>, <<"x ">>).
